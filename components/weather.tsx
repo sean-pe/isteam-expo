@@ -5,8 +5,8 @@ import { format, isWithinInterval } from 'date-fns';
 import { useEffect, useState } from 'react';
 
 interface WeatherAtLocation {
-  latitude: number;
-  longitude: number;
+  latitude: 40.8186;
+  longitude: -73.8014;
   generationtime_ms: number;
   utc_offset_seconds: number;
   timezone: string;
